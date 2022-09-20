@@ -1,0 +1,70 @@
+.navTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+nav{
+    background-color: rgba(59, 59, 59, 0.538);
+}
+.navTitle h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.navTitle div{
+    padding-left: 25px;
+}
+.navTicket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navTicket div {
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-right: 50px;
+    padding-right: 8px;
+}
+.navTicket input{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    width: 100px;
+    padding-left: 5px;
+    color: white;
+}
+.timing{
+    display: flex;
+    gap: 20px;
+    padding: 15px 80px;
+    backdrop-filter: blur(4px);
+    margin-bottom: -2px;
+}
+.timing button{
+    background-color: rgb(249, 248, 248);
+    height: 50px;
+    padding: 0px 30px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid rgb(6, 164, 88);
+}
+.timing .green{
+    color: white;
+    border: 1px solid rgba(26, 163, 14, 0.932);
+    background-color: rgba(23, 161, 11, 0.933);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.396);
+}
+.timing p{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+select{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}

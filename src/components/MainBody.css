@@ -1,0 +1,40 @@
+.MainBody{
+    padding: 30px 100px;
+    /* background-color: rgba(0, 0, 0, 0.382); */
+    backdrop-filter: blur(4px);
+    padding-bottom: 100px;
+}
+.MainBody h1{
+    font-size: 1rem;
+
+    color: rgb(209, 208, 208);
+}
+.grided{
+    color: white;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+hr{
+    background-color: white;
+    border: 1px solid white;
+}
+.normal{
+    padding: 15px 0 ;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 6px;
+    backdrop-filter: blur(4px);
+}
+.executive{
+    padding: 15px 0 ;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 6px;
+}
+.premium{
+    padding: 15px 0 ;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 6px;
+}

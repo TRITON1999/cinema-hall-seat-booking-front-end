@@ -1,0 +1,42 @@
+.Seat{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    background-color: rgba(231, 231, 231, 0.791);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.num{
+    pointer-events: none;
+}
+
+.Seat:hover{
+    color: white;
+    background-color: rgba(3, 132, 3, 0.874);
+    border: 1px solid white;
+}
+.blacked{
+    color: white;
+    background-color: rgba(3, 132, 3, 0.836);
+    border: 1px solid white;
+}
+.disabled{
+    color: grey;
+    background-color: rgb(222, 222, 222);
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.selected{
+    color: white;
+    background-color: rgba(3, 132, 3, 0.874);
+    border: 1px solid white;
+}
